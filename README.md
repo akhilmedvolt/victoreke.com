@@ -1,9 +1,9 @@
 <div align="center">
-<a href="https://akhilsanker.com"><img src="./public/logo.png" width="60px"></a>
+<a href="https://akhilsanker.in"><img src="./public/logo.png" width="60px"></a>
 </div>
 
 <div align="center">
-<h1>akhilsanker.com</h1>
+<h1>akhilsanker.in</h1>
 <p>My personal portfolio website</p>
 </div>
 
@@ -30,9 +30,9 @@ Follow this guide to get this site runnning locally:
 ### Clone Repository
 
 ```js
-git clone https://github.com/Evavic44/akhilsanker.com.git
+git clone https://github.com/Evavic44/akhilsanker.in.git
 
-cd akhilsanker.com
+cd akhilsanker.in
 
 npm install
 ```
@@ -111,7 +111,7 @@ npm run build
 | [`sanity.query.ts`](./lib/sanity.query.ts)     | Groq query for Sanity Schema data               |
 
 ## License & Usage
-This portfolio is MIT-licensed so you are free to use it as an inspiration or you can just copy the whole thing (excluding my personal content of course), I don't really mind. Just make sure you link back to [akhilsanker.com][site] on the footer section as attribution to the original source.
+This portfolio is MIT-licensed so you are free to use it as an inspiration or you can just copy the whole thing (excluding my personal content of course), I don't really mind. Just make sure you link back to [akhilsanker.in][site] on the footer section as attribution to the original source.
 
 <!-- Link Refs -->
 
@@ -123,13 +123,13 @@ This portfolio is MIT-licensed so you are free to use it as an inspiration or yo
 [planetscale]: https://planetscale.com/
 [nexttheme]: https://github.com/pacocoursey/next-themes
 [reactrefractor]: https://github.com/rexxars/react-refractor
-[site]: https://akhilsanker.com
-[studio]: https://akhilsanker.com/studio
-[studio-preview]: https://github.com/Evavic44/akhilsanker.com/assets/62628408/a2574479-a352-4437-ba67-14bd976e48eb
-[site-preview]: https://github.com/Evavic44/akhilsanker.com/assets/62628408/e84ac72f-1ba1-4c46-bfc0-2512ffa0e5fa
-[env-example]: https://github.com/Evavic44/akhilsanker.com/blob/main/.env.example
+[site]: https://akhilsanker.in
+[studio]: https://akhilsanker.in/studio
+[studio-preview]: https://github.com/Evavic44/akhilsanker.in/assets/62628408/a2574479-a352-4437-ba67-14bd976e48eb
+[site-preview]: https://github.com/Evavic44/akhilsanker.in/assets/62628408/e84ac72f-1ba1-4c46-bfc0-2512ffa0e5fa
+[env-example]: https://github.com/Evavic44/akhilsanker.in/blob/main/.env.example
 [localhost]: http://localhost:3000
 [localhost-studio]: http://localhost:3000/studio
-[env-api]: https://github.com/Evavic44/akhilsanker.com/blob/main/lib/env.api.ts
+[env-api]: https://github.com/Evavic44/akhilsanker.in/blob/main/lib/env.api.ts
 [sanity-manage]: https://sanity.io/manage
 [sanity-guide]: https://www.freecodecamp.org/news/how-to-build-a-portfolio-site-with-sanity-and-nextjs

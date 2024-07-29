@@ -18,7 +18,7 @@ const options = {
   title: "Akhil Sanker | Software Developer",
   description:
     " ",
-  url: "https://akhilsanker.com",
+  url: "https://akhilsanker.in",
   ogImage:
     "https://res.cloudinary.com/akhilsanker/image/upload/v1692635746/akhilsanker/og.png",
 };
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: options.title,
     url: options.url,
-    siteName: "akhilsanker.com",
+    siteName: "akhilsanker.in",
     locale: "en-US",
     type: "website",
     description: options.description,

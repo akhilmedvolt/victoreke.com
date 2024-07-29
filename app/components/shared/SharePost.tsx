@@ -14,7 +14,7 @@ type props = {
 };
 
 export default function SharePost({ title, slug, description }: props) {
-  const blog = encodeURIComponent("https://akhilsanker.com/blog/");
+  const blog = encodeURIComponent("https://akhilsanker.in/blog/");
   const options = [
     {
       icon: BiLogoTwitter,

@@ -20,11 +20,11 @@ const images = [
 
 export const metadata: Metadata = {
   title: "Photos | Akhil Sanker",
-  metadataBase: new URL("https://akhilsanker.com/photos"),
+  metadataBase: new URL("https://akhilsanker.in/photos"),
   description: "Explore photos taken by Akhil Sanker",
   openGraph: {
     title: "Photos | Akhil Sanker",
-    url: "https://akhilsanker.com/photos",
+    url: "https://akhilsanker.in/photos",
     description: "Explore photos taken by Akhil Sanker",
     images:
       "https://res.cloudinary.com/akhilsanker/image/upload/v1692635149/akhilsanker/photos.png",
