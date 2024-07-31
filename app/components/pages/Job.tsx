@@ -12,6 +12,18 @@ export default async function Job() {
     tags: ["job"],
   });
 
+  // Sort the job data by end date (or start date if end date is not available) in descending order
+  job.sort((a, b) => {
+    const dateA = new Date(a.endDate || a.startDate);
+    const dateB = new Date(b.endDate || b.startDate);
+
+    // Handle ongoing jobs (where endDate is null)
+    if (!a.endDate) return -1;
+    if (!b.endDate) return 1;
+
+    return dateB.getTime() - dateA.getTime();
+  });
+
   return (
     <section className="mt-32">
       <Slide delay={0.16}>
