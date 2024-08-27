@@ -67,7 +67,7 @@ export default async function About() {
                       placeholder="blur"
                       blurDataURL={data.profileImage.lqip}
                       priority
-                    />
+                    />=
 
                     <div className="flex flex-col text-center gap-y-4">
                       <div className="flex items-center gap-x-3">
@@ -77,7 +77,7 @@ export default async function About() {
                         >
                           View Résumé <BiLinkExternal className="text-base" />
                         </RefLink>
-                        <a
+                        {/* <a
                           href={`${data.resumeURL}?dl=${data.fullName}-resume`}
                           className="flex items-center justify-center text-center dark:text-primary-color text-secondary-color hover:underline basis-[10%] dark:bg-primary-bg bg-zinc-100 border border-transparent dark:hover:border-zinc-700 hover:border-zinc-200 rounded-md py-3 text-lg"
                           title="Download Resume"
@@ -86,7 +86,7 @@ export default async function About() {
                             className="text-lg"
                             aria-label="Download Resume"
                           />
-                        </a>
+                        </a> */}
                       </div>
 
                       <a
