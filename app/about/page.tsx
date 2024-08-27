@@ -67,7 +67,7 @@ export default async function About() {
                       placeholder="blur"
                       blurDataURL={data.profileImage.lqip}
                       priority
-                    />=
+                    />
 
                     <div className="flex flex-col text-center gap-y-4">
                       <div className="flex items-center gap-x-3">
