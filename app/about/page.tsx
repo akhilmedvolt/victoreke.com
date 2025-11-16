@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Metadata } from "next";
 import { profileQuery } from "@/lib/sanity.query";
 import type { ProfileType } from "@/types";
@@ -57,18 +56,6 @@ export default async function About() {
               <aside className="flex flex-col lg:justify-self-center justify-self-start gap-y-8 lg:order-1 order-none mb-12">
                 <Slide delay={0.1}>
                   <div className="sticky top-10">
-                    <Image
-                      className="rounded-2xl mb-4 object-cover max-h-96 min-h-96 bg-top"
-                      src={data.profileImage.image}
-                      width={400}
-                      height={400}
-                      quality={100}
-                      alt={data.profileImage.alt}
-                      placeholder="blur"
-                      blurDataURL={data.profileImage.lqip}
-                      priority
-                    />
-
                     <div className="flex flex-col text-center gap-y-4">
                       <div className="flex items-center gap-x-3">
                         <RefLink
